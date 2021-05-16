@@ -1,0 +1,64 @@
+1. How the memory management is happening in python>?? 
+
+Private Heap
+
+2. Does python does compiling??
+
+yes it is because of the concept called "cpython"
+
+3. Difference between mutable and immutable??
+
+4. var ={True:"dhoni",1:"kohli",1.0:"ashwin"}
+print(var[True])
+
+what is the ouptut for the above???
+
+output is "ashwin" because all the key are same in above statement. 
+
+5. where does we use update() function and why??
+
+it is used in dictionary because we cant add dictionary using + operator
+
+6. What is meant by context_manager in python
+
+with open("murali.txt","w") as var:
+var.write()
+
+above statement is context_manager because it closes the file automatically
+
+7. Tell me some brief on class and OOPS
+
+8. List out some of the libraries that you came across and explain one in detail.
+
+9. "finally" statement is exception handling.. Why this is used and give me one practical usage.
+
+10. can i have more than one exception in single try block
+
+yes you can have any number but atleast one is neccassary.
+
+11. Write a user defined exception 
+
+12. except Exception as ex:
+in the above statement what is "Exception"????
+
+13. explain about function scoping concept. atleast local and global scope.
+
+14. Give some usage of Regular Expression and what group() in RE.
+
+15. How does JSON and dictionaries were inter related and what is serilization???/
+
+16. any idea about pickling???
+
+17. what is list and dictionary comprehension.
+
+18. what is the logical mistake am doing in below.
+
+var = ["a","b","c"]
+for x in var:
+   y = x.upper()
+   var.append(y)
+print(var)
+
+Mistake: you can t append back to the existing variable during list iteration. It will run for infinite looping
+
+19. what is function for converting list to string???
